@@ -1,0 +1,192 @@
+.body{
+height: auto;
+width: 100%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'lobster',cursive;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px; 
+    text-transform: uppercase;
+    font-family: 'rubik', sans-serif;
+
+    color: black;
+}
+.nav-link:hover{
+    color:black;
+}
+.serch{
+    height: 40px;
+    width: 80%;
+    outline: none;
+    border-radius: 68px;
+    margin-right: -35px;
+    font-family: 'rubik', sans-serif;
+    border: 2px solid rgb(248, 26, 92);
+    
+
+}
+.btn{
+    height: 40px;
+    width: 40%;
+    outline:none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background-image: url("main.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+
+
+}
+.main,h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn{
+    height: 40px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+
+
+}
+.image{
+    height: 80px;
+    width: 80%;
+
+}
+
+
+    .main2{
+        height: 50vh;
+        width: 100%;
+        background-position: 50% 50%;
+    
+    
+    
+
+    }
+    img{
+        height: 40vh;
+        width: 300px;
+        justify-content: space-between;
+    }
+    .btn:hover{
+        background-color: rgb(214, 37, 37);
+        transition: 0.5s;
+    }
+    .card-body:hover{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .row{
+        height: 300px;
+        width: 90%;
+    }
+.row{
+    justify-content: center;
+    padding-left: 10px;
+
+}
+.col{
+    margin-left: 50px;
+}
+.shop{
+    height: 400px;
+    width: 100%;
+}
+.img-fluid1{
+    height: 33vh;
+    width: 250px;
+}
+.big-image{
+    display: flex;
+    height: 50vh;
+    width: 90%;
+    background-color: blue;
+}
+.apple{
+    height: 70vh;
+    width: 100%;
+    background-image: url("apple1.webp");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+h2{
+    font-family: 'lobster',cursive;
+    color: blue;
+
+}
+.col{
+    margin-left: 0px;
+    
+}
+.contact{
+    height: 100vh;
+    width: 87%;
+    background-color: rgb(164, 164, 185);
+    margin-left: 100px;
+}
+.btn1{
+
+    height: 35px;
+    width: 150px;
+     border: 1px black solid;
+     border-radius: 20px;
+     background-color: chocolate;
+     color: white;
+}
+.news{
+    background-color: black;
+    color: white;
+    width: 87%;
+    height: 800px;
+    margin-left: 100px;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    color: white;
+    margin-left: -10px;
+    border: 2px solid blaxk;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    color:white;
+    border: 2px solid white;
+    background: black;
+    color:  white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color:white
+
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
